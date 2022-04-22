@@ -1,0 +1,98 @@
+.section{
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center;
+}
+
+.section.one{
+    background-image: url(../img/1.avif);
+}
+
+.section.two{
+    background-image: url(../img/2.avif);
+}
+
+.section.three{
+    background-image: url(../img/3.avif);
+}
+
+.section.four{
+    background-image: url(../img/4.avif);
+}
+
+.section.five{
+    background-image: url(../img/charger.png);
+    background-size: 50%;
+    position: relative;
+    top: 50%;
+    font-size: 2.9em;
+    height:100vh;
+}
+
+.section__action__container{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+}
+
+.section__content{
+    position: relative;
+    text-align: center;
+    top: -25%;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.section__content__title{
+    position: relative;
+ font-size: 5em;   
+}
+
+.section__content__subtitle{
+    position: relative;
+    top: 2em;
+    font-weight: 500;
+}
+
+.section__content__subtitle a{
+    color: inherit;
+}
+
+.section__content__subtitle a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+.section__action_btn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 2.1rem;
+    flex-basis: 70%;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    grid: 10%;
+}
+
+
+.action__btn__primary{
+    background: rgba(23, 26, 42, 0.8);
+    color: white;
+}
+
+.action__btn__secondary{
+    background: rgba(255, 255, 255, 0.65);
+    color: black;
+}
+

@@ -1,0 +1,48 @@
+/*sm=600
+
+md=960
+
+lg=1200
+
+xl=1600
+*/
+
+@media screen and (min-width: 600px) {
+    .section__action_btn{
+        max-width: 35rem;
+        padding: 1.3rem;
+        flex-basis: 40%;
+    }
+
+    .section__action__container{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .section__action_btn{
+        width: 70%;
+        
+    }
+
+    .header__middle{
+        display: inline-flex;
+        margin: -0.9rem 0;    
+        font-weight: 300;
+
+    }
+
+    .header__middle li{
+        list-style: none;
+        cursor: pointer;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 1rem;
+        color: rgb(70, 47, 47);
+        border-radius: 1.5rem;
+        text-transform: capitalize;
+        padding: 2em;
+        margin: 0 auto;
+    }
+}
+
